@@ -5,6 +5,7 @@ set -x
 
 # xvfb and some hard dependencies of firefox
 minimal_apt_get_install \
+  xvfb \
   gconf2 \
   google-chrome-stable \
   #
